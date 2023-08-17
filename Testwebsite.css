@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    Padding: 0;
+}
+Nav {
+   background-color:lightgray;
+}
+nav div {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: gray;
+}
+/* Target the body structure id's*/
+div#left {
+    width: 29%;
+    float:left;
+    height: 98vh;
+    border: 2px solid black;
+    background-color: blue;
+}
+div#right {
+    width: 70%;
+    float:left;
+    height: 98vh;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+div#left div img {
+width: 150px;
+display:block;
+margin:auto;
+border:2px solid black;
+}
+div#left div#list {
+    border-top:2px solid black;
+    height: 63vh;
+    }
+
+div#left div p{
+    color:palevioletred;
+    text-align:center;
+}
+
+div#right div img {
+    width: 150px;
+    display:inline;
+    float: left;
+    margin: 0 auto;
+    }
+div#right div#images {
+    width: 150px;
+    display:inline;
+    margin: 0 auto;
+    border:2px solid black;
+}
+
+div#right div p{
+        color:palevioletred;
+    }
